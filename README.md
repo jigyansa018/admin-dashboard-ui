@@ -17,18 +17,19 @@ A responsive Admin Analytics Dashboard built using **pure HTML, CSS, and JavaScr
 - Font Awesome
 
 ## 🌐 Live Demo
-👉 https://app.netlify.com/projects/kaleidoscopic-lollipop-f64c4c/deploys
+👉 https://admin-analytics-dashboard-ui.netlify.app
 
 ## 📸 Screenshots
 ### Light Mode
-![Dashboard Light](screenshots/dashboard-light.png)
+![Dashboard Light](screenshots/light-mode.png)
 
 ### Dark Mode
-![Dashboard Dark](screenshots/dashboard-dark.png)
+![Dashboard Dark](screenshots/dark-mode.png)
 
 ### API Data
 ![API Data](screenshots/api-data.png)
 
 ## 📌 Note
 This project was built as part of a frontend assignment to demonstrate UI accuracy, responsiveness, and basic API integration.
+
 
