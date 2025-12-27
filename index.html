@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Analytics Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+  <div class="sidebar-header">
+    <h2 class="brand">Acorn</h2>
+    <button id="sidebarToggle" class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <ul>
+    <li class="active"><i class="fa-solid fa-chart-pie"></i><span>Dashboard</span></li>
+    <li><i class="fa-solid fa-users"></i><span>Users</span></li>
+    <li><i class="fa-solid fa-cart-shopping"></i><span>Orders</span></li>
+    <li><i class="fa-solid fa-chart-line"></i><span>Analytics</span></li>
+    <li><i class="fa-solid fa-gear"></i><span>Settings</span></li>
+  </ul>
+</aside>
+
+
+  <!-- Main -->
+  <main>
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <button id="sidebarToggle" class="theme-btn">
+        <!-- <i class="fa-solid fa-bars"></i> -->
+      </button>
+
+      <h3>Admin Analytics</h3>
+
+      <div class="admin">
+        <i class="fa-solid fa-user-circle"></i>
+        <span>Admin</span>
+      </div>
+
+      <button id="themeToggle" class="theme-btn">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </header>
+
+    <!-- KPI -->
+    <section class="kpi">
+      <div class="kpi-card">
+        <i class="fa-solid fa-users"></i>
+        <div><p>Total Users</p><h2>12,540</h2></div>
+      </div>
+      <div class="kpi-card">
+        <i class="fa-solid fa-dollar-sign"></i>
+        <div><p>Revenue</p><h2>$48,900</h2></div>
+      </div>
+      <div class="kpi-card">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <div><p>Orders</p><h2>1,260</h2></div>
+      </div>
+      <div class="kpi-card">
+        <i class="fa-solid fa-arrow-trend-up"></i>
+        <div><p>Growth</p><h2>18%</h2></div>
+      </div>
+    </section>
+
+    <!-- Chart + Table -->
+    <section class="grid">
+
+      <div class="box">
+        <h4>Monthly Revenue</h4>
+        <canvas id="chart"></canvas>
+      </div>
+
+      <div class="box">
+        <h4>Recent Users</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
