@@ -17,7 +17,7 @@ A responsive Admin Analytics Dashboard built using **pure HTML, CSS, and JavaScr
 - Font Awesome
 
 ## 🌐 Live Demo
-👉 https://your-site-name.netlify.app
+👉 https://app.netlify.com/projects/kaleidoscopic-lollipop-f64c4c/deploys
 
 ## 📸 Screenshots
 ### Light Mode
@@ -31,3 +31,4 @@ A responsive Admin Analytics Dashboard built using **pure HTML, CSS, and JavaScr
 
 ## 📌 Note
 This project was built as part of a frontend assignment to demonstrate UI accuracy, responsiveness, and basic API integration.
+
